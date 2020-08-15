@@ -1,0 +1,102 @@
+<html>
+
+<head>
+    <title>Galery</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <script src="gallery.js"></script>
+</head>
+
+<body onload="loadPhotos()">
+    <nav>
+        <div class="google-fotos-cont">
+            <div class="google-text-cont">
+                <p class="g">G</p>
+                <p class="o">o</p>
+                <p class="o2">o</p>
+                <p class="g">g</p>
+                <p class="l">l</p>
+                <p class="e">e</p>
+            </div>
+            <div class="fotos-cont">
+                <p class="fotos">Fotos</p>
+            </div>
+        </div>
+        <div>
+            <input class="input" type="text" placeholder="suchen">
+            <img class="search-pic" src="icons/search.png">
+        </div>
+        <div class="upload-btn-cont">
+            <div><img class="upload-pic" src="icons/upload.png"></div>
+            <div>
+                <p class="upload-text">Hochladen</p>
+            </div>
+            <div><img class="icon-pic1" src="icons/question.png"></div>
+            <div><img class="icon-pic2" src="icons/settings.png"></div>
+            <div><img class="icon-pic3" src="icons/icon.png"></div>
+            <div><button class="name-btn">D</button></div>
+        </div>
+    </nav>
+
+    <div class="border-bottom"></div>
+
+    <div class="menu-left">
+        <div class="menu-left-icons" id="menu-left-icons1">
+            <img class="icons-menu-left" src="icons/photobook.png">
+            <p id="icon-title" class="icon-title">Fotos</p>
+        </div>
+        <div class="menu-left-icons" id="menu-left-icons2">
+            <img class="icons-menu-left" src="icons/teilen.png">
+            <p class="icon-title">Teilen</p>
+        </div>
+        <div class="menu-left-icons" id="menu-left-icons3">
+            <img class="icons-menu-left" src="icons/star.png">
+            <p class="icon-title">Für mich</p>
+        </div>
+        <div class="menu-left-icons" id="menu-left-icons4">
+            <img class="icons-menu-left" src="icons/photobook.png">
+            <p class="icon-title">Fotobücher</p>
+        </div>
+        <div>
+            <p class="fotogalerie-text">FOTOGALERIE</p>
+        </div>
+        <div class="menu-left-icons" id="menu-left-icons5">
+            <img class="icons-menu-left" src="icons/album.png">
+            <p class="icon-title">Alben</p>
+        </div>
+        <div class="menu-left-icons" id="menu-left-icons6">
+            <img class="icons-menu-left" src="icons/verwalten.jpg">
+            <p class="icon-title">Verwalten</p>
+        </div>
+        <div class="menu-left-icons" id="menu-left-icons7">
+            <img class="icons-menu-left" src="icons/archieve.png">
+            <p class="icon-title">Archiv</p>
+        </div>
+        <div class="menu-left-icons" id="menu-left-icons8">
+            <img class="icons-menu-left" src="icons/garbage-1699643_640.png">
+            <p class="icon-title">Papierkorb</p>
+        </div>
+    </div>
+    <div class="border-left"></div>
+    <div class="storage">
+        <img class="storage-pic" src="icons/cloud.png">
+        <div class="storage-pic-progres-text">
+            <p class="storagespace">Speicherplatz</p>
+            <div class="storage-progress"></div>
+            <p class="storagespace-text">16 GB von 100 GB belegt</p>
+        </div>
+    </div>
+    <div id="picture-place-title" class="picture-place-title"></div>
+    <div id="picture-place-title2" class="picture-place-titl2"></div>
+    <div id="picture-place-title3" class="picture-place-titl3"></div>
+    <div id="picture-place" class="picture-place"></div>
+
+
+
+</body>
+
+</html>
